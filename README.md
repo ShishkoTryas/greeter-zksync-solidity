@@ -16,16 +16,18 @@ contract Greeter {
         greeting = _greeting;
     }
 }
-
+```
 # Start method
 
 1. After Clone this repository to the local, compile and deploy
 ```
 cd greeter-zksync-solidity
-
+```
+```
 npm init -y
 npm i -D typescript ts-node ethers@^5.7.2 zksync-web3@^0.13.1 hardhat @matterlabs/hardhat-zksync-solc @matterlabs/hardhat-zksync-deploy dotenv
-
+```
+```
 // The goerli network is used here: actually running 'hardhat run --network goerli ./deploy/deploy.ts'
 npx hardhat compile
 ```
