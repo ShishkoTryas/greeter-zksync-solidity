@@ -36,7 +36,7 @@ npx hardhat compile
 ```
 create .env file
 Add this to the file and add your key
-PRIVATE_KEY = "...PRIVATE_KEY..."
+PRIVATE_KEY = ...PRIVATE_KEY...
 ```
 
 3. Run the script using the following command to run the deployment script
